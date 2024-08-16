@@ -1,6 +1,6 @@
 # ShieldVultus 🛡️
 
-**ShieldVultus** is a cybersecurity application developed for the GIIS IDEATE 3.0 event, AppElevate, as part of a school event. This tool is designed to offer robust protection by scanning files and URLs for potential threats. The project showcases practical skills in security application development and aims to demonstrate effective techniques for threat detection and management.
+**ShieldVultus** is a cybersecurity application developed for the GIIS IDEATE 3.0 event, AppElevate, as part of a school project. This tool is designed to offer robust protection by scanning files and URLs for potential threats. The project showcases practical skills in security application development and aims to demonstrate effective techniques for threat detection and management.
 
 ## Project Overview
 
@@ -35,11 +35,16 @@ To set up and run ShieldVultus, follow these steps:
     ```
 
 2. **Install dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
+    - You need to install the required Python libraries. Run the following command:
+      ```bash
+      pip install PyQt5 requests
+      ```
+    - Dependencies are listed in the `requirements.txt` file, which includes PyQt5 and Requests.
 
-3. **Run the application**:
+3. **Obtain VirusTotal API Key**:
+    - To use the file and URL scanning features, you need a VirusTotal API key. Get your API key from [VirusTotal](https://www.virustotal.com/gui/my-apikey).
+
+4. **Run the application**:
     ```bash
     python shieldvultus.py
     ```
