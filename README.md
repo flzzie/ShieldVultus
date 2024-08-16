@@ -1,6 +1,6 @@
 # ShieldVultus 🛡️
 
-**ShieldVultus** is a cybersecurity application developed for the GIIS IDEATE 3.0 event, AppElevate, as part of a school project. This tool is designed to offer robust protection by scanning files and URLs for potential threats. The project showcases practical skills in security application development and aims to demonstrate effective techniques for threat detection and management.
+**ShieldVultus** is a cybersecurity application developed for the GIIS IDEATE 3.0 event, AppElevate, as part of a school event. This tool is designed to offer robust protection by scanning files and URLs for potential threats. The project showcases practical skills in security application development and aims to demonstrate effective techniques for threat detection and management.
 
 ## Project Overview
 
