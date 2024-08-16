@@ -37,9 +37,9 @@ To set up and run ShieldVultus, follow these steps:
 2. **Install dependencies**:
     - You need to install the required Python libraries. Run the following command:
       ```bash
-      pip install PyQt5 requests
+      pip install PyQt5
+      pip install requests
       ```
-    - Dependencies are listed in the `requirements.txt` file, which includes PyQt5 and Requests.
 
 3. **Obtain VirusTotal API Key**:
     - To use the file and URL scanning features, you need a VirusTotal API key. Get your API key from [VirusTotal](https://www.virustotal.com/gui/my-apikey).
@@ -49,9 +49,10 @@ To set up and run ShieldVultus, follow these steps:
     python shieldvultus.py
     ```
 
-Ensure you have Python 3.x installed. The `requirements.txt` file lists the necessary dependencies, including PyQt5 and Requests.
+Ensure you have Python 3.x installed. The VirusTotal API also install the following library, including PyQt5 and Requests.
 
 ## Usage
+
 
 - **File Scan**: 
   - Enter the file path or directory to scan.
