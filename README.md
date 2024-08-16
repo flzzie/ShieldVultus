@@ -40,7 +40,7 @@ To set up and run ShieldVultus, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/shieldvultus.git
+    git clone https://github.com/flzzie/shieldvultus.git
     cd shieldvultus
     ```
 
@@ -50,9 +50,9 @@ To set up and run ShieldVultus, follow these steps:
 3. **Install dependencies**:
     - Install the required Python libraries by running:
       ```bash
-      pip install PyQt5 requests
+      pip install PyQt5
+      pip install requests
       ```
-    - Dependencies are listed in the `requirements.txt` file, which also includes PyQt5 and Requests.
 
 4. **Obtain VirusTotal API Key**:
     - To use the file and URL scanning features, you need a VirusTotal API key. Obtain your API key from [VirusTotal](https://www.virustotal.com/gui/my-apikey).
