@@ -1,17 +1,32 @@
-# 🛡️ ShieldVultus
 # ShieldVultus 🛡️
 
-**ShieldVultus** is a robust security application designed for comprehensive file and URL scanning. Developed as part of the GIIS IDEATE 3.0 event AppElevate, this tool focuses on identifying potentially dangerous files and URLs, and managing quarantined items effectively.
+**ShieldVultus** is a cybersecurity application developed for the GIIS IDEATE 3.0 event, AppElevate, as part of a school project. This tool is designed to offer robust protection by scanning files and URLs for potential threats. The project showcases practical skills in security application development and aims to demonstrate effective techniques for threat detection and management.
+
+## Project Overview
+
+ShieldVultus provides three main functionalities:
+
+1. **File Scan**: 
+   - **Purpose**: Detect potential security threats in files and directories.
+   - **How**: By integrating with VirusTotal’s API, the application scans selected files or directories for malicious content and provides a safety report.
+
+2. **URL Check**:
+   - **Purpose**: Analyze URLs to determine if they are safe and to uncover the final destination of shortened URLs.
+   - **How**: Input a URL to receive a safety assessment and resolution of any shortened links to their original form.
+
+3. **Quarantine Management**:
+   - **Purpose**: Isolate potentially dangerous files to prevent them from causing harm, and manage these files effectively.
+   - **How**: Move files to a quarantine directory, list quarantined items, and restore them if they are verified as safe.
 
 ## Features
 
-- **File Scan**: Analyze files or directories to detect potential security threats using VirusTotal integration.
-- **URL Check**: Validate URLs to identify malicious content and determine the final destination of shortened URLs.
-- **Quarantine Management**: Move suspicious files to quarantine, list quarantined items, and restore files if deemed safe.
+- **File Scan**: Scan individual files or entire directories for malware using VirusTotal.
+- **URL Check**: Evaluate the safety of URLs and resolve shortened URLs to their original destinations.
+- **Quarantine Management**: Manage quarantined files by isolating, listing, and restoring them as needed.
 
 ## Installation
 
-To run the ShieldVultus application, you need Python and the required libraries. Follow these steps to set up:
+To set up and run ShieldVultus, follow these steps:
 
 1. **Clone the repository**:
     ```bash
@@ -29,39 +44,33 @@ To run the ShieldVultus application, you need Python and the required libraries.
     python shieldvultus.py
     ```
 
-## Requirements
-
-- Python 3.x
-- PyQt5
-- Requests
-
-Make sure to replace `yourusername` with your actual GitHub username and include the `requirements.txt` file in your repository with the necessary dependencies listed.
+Ensure you have Python 3.x installed. The `requirements.txt` file lists the necessary dependencies, including PyQt5 and Requests.
 
 ## Usage
 
-1. **File Scan**:
-   - Enter a file path or directory.
-   - Click "Scan" to check for threats.
+- **File Scan**: 
+  - Enter the file path or directory to scan.
+  - Click "Scan" to check for threats.
 
-2. **URL Check**:
-   - Enter a URL to check its safety and resolve redirections.
+- **URL Check**: 
+  - Enter a URL to analyze and resolve any short links.
 
-3. **Quarantine Management**:
-   - Browse for files to quarantine.
-   - List and restore quarantined files as needed.
+- **Quarantine Management**: 
+  - Browse and select files to quarantine.
+  - View and manage quarantined files, with options to restore if safe.
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
+As this project is part of a school assignment, contributions are primarily for educational purposes. However, suggestions for improvements, issue reports, and code enhancements are welcome. Please fork the repository and submit a pull request with your contributions.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. For details, see the [LICENSE](LICENSE) file.
 
 ## Contact
 
-For any questions or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
+For questions or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
 
 ---
 
-**ShieldVultus** - Your security companion for thorough file and URL checking.
+**ShieldVultus** - A school project developed to enhance cybersecurity by providing tools for thorough file and URL scanning.
